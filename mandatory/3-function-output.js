@@ -19,7 +19,7 @@ function combine2Words(word1, word2) {
 
 
 function concatenate(firstWord, secondWord, thirdWord) {
-  return  firstWord.concat(secondWord.concat(thirdWord))
+  return  firstWord.concat(secondWord, thirdWord)
  }
 
 
