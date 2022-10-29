@@ -23,7 +23,6 @@ function addTaxAndFormatCurrency(number) {
   return "£" + calculateSalesTax(number).toFixed(2)
 }
 
-console.log(addTaxAndFormatCurrency(17.5))
 /* 
 ===================================================
 ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====

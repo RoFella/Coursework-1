@@ -1,7 +1,7 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function trimWord(word) {
-  return text.trim();
+return text.trim();
 }
 
 function getStringLength(word) {
