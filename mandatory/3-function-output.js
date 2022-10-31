@@ -6,11 +6,12 @@ function getRandomNumber() {
 //The Math.random() function returns a floating-point, pseudo-random number 
 //that's greater than or equal to 0 and less than 1, with approximately uniform 
 //distribution over that range — which you can then scale to your desired range.
+//The given function gets random number from 0 to almost 1 and multiplies it on 10
 
 
 // Add comments to explain what this function does. You're meant to use Google!
-function combine2Words(word1, word2) {
-  return word1.concat(word2);
+function concatenate1(word1, word2) {
+  return word1.concatenate(' ', word2);
 }
 
 //In JavaScript, concat() is a string method that is used to concatenate strings together.
@@ -19,10 +20,8 @@ function combine2Words(word1, word2) {
 
 
 function concatenate(firstWord, secondWord, thirdWord) {
-  return  firstWord.concat(secondWord, thirdWord)
+  return  "".concatenate(firstWord, secondWord, thirdWord)
  }
-
-
 /* 
 ===================================================
 ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
