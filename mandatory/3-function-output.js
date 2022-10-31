@@ -20,7 +20,7 @@ function concatenate1(word1, word2) {
 
 
 function concatenate(firstWord, secondWord, thirdWord) {
-  return  "".concatenate(firstWord, secondWord, thirdWord)
+  return firstWord.concat(" ", secondWord, " ", thirdWord)
  }
 /* 
 ===================================================
