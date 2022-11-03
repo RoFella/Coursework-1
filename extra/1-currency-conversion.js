@@ -6,10 +6,9 @@
 */
 
 function convertToUSD(number1) {
-  return "$" + (number1 * 1.4).toFixed(2)
+  return (number1 * 1.4)
 }
 
-console.log(convertToBRL(25))
 /*
   CURRENCY CONVERSION
   ===================
@@ -20,9 +19,9 @@ console.log(convertToBRL(25))
 
 function convertToBRL(number2) {
   let MoneyWithPerc = (number2 - (number2 / 100))
-  return  "R$" + (MoneyWithPerc * 5.7).toFixed(2)
+  return (MoneyWithPerc * 5.7).toFixed(2) * 1
 }
-
+console.log(convertToBRL())
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
 
